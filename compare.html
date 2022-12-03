@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="text" id="email">
+        </div>
+        <!---------Message------------------------>
+        <div>
+            <label for="messg">Message</label><br>
+            <textarea name="mssg" id="mssg" cols="100" rows="30" placeholder="Write something here"></textarea>
+        </div>
+
+        <!----------Gender----------->>
+        <div>
+            <label for="sex">Gender</label><br>
+            <select name="sex" id="sex">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age">
+        </div>
+
+        <!----------------Radio button----------------------->
+
+        <div>
+            <label for="Semester">Semester</label>
+            <input type="radio" id="Semester" value="Sem1">Sem1
+            <input type="radio" id="Semester" value="Sem2">Sem2
+            <input type="radio" id="Semester" value="Sem3">Sem3
+            <input type="radio" id="Semester" value="Sem4">Sem4
+            <input type="radio" id="Semester" value="Sem5">Sem5
+            <input type="radio" id="Semester">Sem6
+            <input type="radio" id="Semester">Sem7
+            <input type="radio" id="Semester">Sem8
+        </div>
+
+        <!----------Checkbox-------------------->
+        <div>
+            <label for="fav">Favourite fruits</label>
+            <input type="checkbox" id="fav">Apple
+            <input type="checkbox" id="fav">Banana
+            <input type="checkbox" id="fav">Grape
+            <input type="checkbox" id="fav">Guava
+            <input type="checkbox" id="fav">Lichi
+            <input type="checkbox" id="fav">Lemon
+            <input type="checkbox" id="fav">Orange
+
+        </div>
+
+        <div>
+            <input type="submit" value="Confirm">
+        </div>
+
+
+        <div>
+            
+            <input type="submit" id="sub" value="Suuubmit">
+        </div>
+
+        <div>
+            
+            <input type="button" id="res" value="Reeeset">
+        </div>
+
+    </form>
+    <script src="compare.js"></script>
+</body>
+</html>
